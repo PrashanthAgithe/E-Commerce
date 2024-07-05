@@ -1,0 +1,29 @@
+.Products-main{
+  margin:30px 20px;
+  display:grid;
+  column-gap:30px;
+  row-gap: 50px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.allproducts-item{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  
+}
+.allproducts-item button{
+  width:50%;
+  padding:5px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  background: #e64646;
+  color:white;
+  font-family: 'Poppins';
+  font-size: 16px;
+  cursor: pointer;
+}
+.allproducts-item button:hover{
+  background-color: #c40a0a;
+}

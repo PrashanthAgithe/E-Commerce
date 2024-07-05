@@ -1,0 +1,108 @@
+.loginAndRegister{
+  width:100%;
+  height:90vh;
+  background: #fce3fe;
+  padding: 100px;
+  margin-bottom: 150px;
+}
+.loginAndRegister-container{
+  width:580px;
+  /* height:450px; */
+  background: white;
+  margin: auto;
+  padding: 20px 60px;
+  position: relative;
+  border-radius: 15px;
+}
+.loginAndRegister-header{
+  display: flex;
+  justify-content: space-evenly;
+}
+.register{
+  width:50%;
+  height:85px;
+  background-color: rgb(198, 198, 198);
+  border-top-left-radius: 15px;
+  position:absolute;
+  top:0;
+  transform: translateX(-50%);
+  opacity: 0.7;
+  cursor: pointer;
+  transition-property: transform;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+  transition-duration: 0.4s;
+}
+.login{
+  width:50%;
+  height:85px;
+  background-color: rgb(198, 198, 198);
+  border-top-right-radius: 15px;
+  position:absolute;
+  top:0; 
+  transform: translateX(50%);
+  opacity: 0.7;
+  cursor: pointer;
+  transition-property: transform;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+  transition-duration: 0.4s;
+}
+.loginAndRegister-container h1{
+  margin: 10px 0px;
+}
+.loginAndRegister-fields{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 30px;
+}
+.loginAndRegister-fields input{
+  height:42px;
+  width:100%;
+  padding-left: 20px;
+  border-radius: 12px;
+  outline: none;
+  border: 1px solid #b4b4b4;
+  color:#5c5c5c;
+  font-size: 18px;
+}
+.loginAndRegister-container button{
+  width:100%;
+  height:42px;
+  border:none;
+  background: #ff4141;
+  font-size: 24px;
+  color:white;
+  border-radius: 5px;
+  font-weight: 500;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.loginAndRegister-login{
+  margin-top: 20px;
+  color:rgb(105, 105, 105);
+  font-size: 18px;
+  font-weight: 500;
+}
+.loginAndRegister-login span{
+  color:#ff4141;
+  font-weight: 600;
+  cursor: pointer;
+}
+.loginAndRegister-agree{
+  display: flex;
+  color:#5c5c5c;
+  margin-top: 15px;
+  align-items: center;
+  gap: 15px;
+  font-size: 18px;
+  font-weight: 500;
+  padding:0px 5px;
+}
+.errordisplay{
+  color:#ff2323;
+  font-size: 16px;
+  font-weight: 700;
+}
